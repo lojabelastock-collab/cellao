@@ -1,0 +1,40 @@
+# Local development
+.env
+.DS_Store
+.vscode
+.idea
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
+
+# PHPUnit
+phpunit.xml
+.phpunit.result.cache
+coverage/
+
+# IDE
+.sublime-project
+.sublime-workspace
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# WordPress specifics
+wp-config-local.php
+wp-content/uploads/
+wp-content/cache/
